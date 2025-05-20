@@ -19,11 +19,15 @@ We work with four evaluation datasets: anthropic-train/test, wildfeedback and ne
 * ``load_all_data.py`` contains the code to load all datasets. 
 * ``all_valid_data`` - folder which contains all the cleaned evaluation sets.
 
+Note: wildfeedback-train's data can be found [here](https://drive.google.com/drive/folders/1JBWMT9Vb3eZjwT12HpbsCrqShyrjJ9dA?usp=sharing) due to Github's upload limit.
+
 ## Running the judges
 * ``api_[io,wexpl,da,maxim].py`` have the GPT-4o and Claude generation codes. You will have to fill in OpenAI / Claude keys. 
 * ``lm_any.py`` has the code to run a local model such as Qwen-2.5-32B-it: ``python lm_any.py --which-dataset anthropic-test --save-path fill-here --which-model Qwen/Qwen2.5-32B-Instruct --which-mode maxim``
 
 The folder ``final_outputs`` has all the DA and maxim annotations we obtained with GPT-4o, Claude and Qwen-2.5-32B-it.
+
+Note: wildfeedback-train's outputs can be found [here](https://drive.google.com/drive/folders/1JBWMT9Vb3eZjwT12HpbsCrqShyrjJ9dA?usp=sharing) due to Github's upload limit.
 
 ## Running the reward models
 The ``reward-models`` folder has the codes to run INF-ORM, QRM, and Skywork-v0.2. 
