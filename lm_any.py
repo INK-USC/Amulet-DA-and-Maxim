@@ -35,7 +35,7 @@ from transformers.utils.versions import require_version
 from all_prompts import *
 from load_all_data import *
 
-openai.api_key='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'
+openai.api_key='fill-here'
 
 def get_args():
     parser = argparse.ArgumentParser(description='Other LM')
