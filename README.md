@@ -2,7 +2,7 @@
 # AMULET - (A)nalyze (MUL)ti-(T)urn conversations
 This is the official code and associated datasets for the paper titled 
 
->[AMULET: Putting Complex Multi-Turn Conversations on the Stand with LLM Juries. *Sahana Ramnath, Anurag Mudgil, Brihi Joshi, Skyler Hallinan, Xiang Ren.*]()
+>[AMULET: Putting Complex Multi-Turn Conversations on the Stand with LLM Juries. *Sahana Ramnath, Anurag Mudgil, Brihi Joshi, Skyler Hallinan, Xiang Ren.*](https://arxiv.org/pdf/2505.20451)
 
 For any questions, please contact Sahana Ramnath [sramnath@usc.edu].
 
